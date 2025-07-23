@@ -39,20 +39,20 @@ curl -X GET \
 - Low Scale (1k responses per month)
   - Lambda: FREE
   - API Gateway: FREE (for the first year)
-  - S3: ~$0.01-0.10
-  - Total: ~$0.01-0.10
+  - S3: ~$1.26 @ 50GB/month
+  - Total: ~$1.26 USD
 
 - Medium Scale Scenarios (100k responses per month)
-  - Lambda: ~$2-8 depending on execution time
-  - API Gateway: ~$35
-  - S3: $2-20 depending on storage volume
-  - Total: ~$40-65
+  - Lambda: FREE
+  - API Gateway: ~$0.35
+  - S3: ~$1.84 @ 50GB/month
+  - Total: ~$2.19 USD
  
 - High Scale Scenarios (1M responses per month)
-  - Lambda: ~$20-80 depending on execution time
-  - API Gateway: ~$350
-  - S3: $20-200 depending on storage volume
-  - Total: ~$400-650
+  - Lambda: FREE
+  - API Gateway: ~$3.50
+  - S3: ~$7.19 @ 50GB/month
+  - Total: ~$10.69 USD
   
 ## Technical Challenges/Edge Cases
 - Generally speaking, most of the learning was where my technical challenges lie. Working with AWS, configuring roles, testing code and api calls were what I struggled with the most. But this is to be expected for a first time learner. I've had trouble with receiving metadata headers because I was checking with the incorrect file.
